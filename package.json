@@ -1,0 +1,21 @@
+{
+    "name": "@lanterndata/prisma",
+    "version": "0.0.0",
+    "description": "Support vector operations with Prisma",
+    "repository": "https://github.com/lanterndata/prisma",
+    "author": "Di Qi <di@lantern.dev>",
+    "main": "dist/index.js",
+    "module": "dist/index.js",
+    "license": "MIT",
+    "peerDependencies": {
+      "@prisma/client": "latest"
+    },
+    "devDependencies": {
+        "@prisma/client": "latest",
+        "prisma": "latest",
+        "typescript": "latest"
+    },
+    "scripts": {
+        "build": "tsc"
+    }
+  }
